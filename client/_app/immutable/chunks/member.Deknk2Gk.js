@@ -1,0 +1,1 @@
+const i=(a,n={})=>{const t=a.nickname&&a.nickname.length>60?a.nickname.substring(0,57)+"...":a.nickname;return t&&!n.hideNickname?a.firstName&&a.lastName?`${a.firstName} "${t}" ${a.lastName}`:`"${t}"`:a.firstName&&a.lastName?`${a.firstName} ${a.lastName}`:a.firstName||a.lastName||"No name"};export{i as g};

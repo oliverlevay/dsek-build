@@ -1,0 +1,1 @@
+{"version":3,"file":"authorizedPrisma-Cq0-ghZZ.js","sources":["../../../.svelte-kit/adapter-node/chunks/authorizedPrisma.js"],"sourcesContent":["import { PrismaClient } from \"@prisma/client\";\nconst authorizedPrismaClient = new PrismaClient();\nexport {\n  authorizedPrismaClient as a\n};\n"],"names":[],"mappings":";;AACK,MAAC,sBAAsB,GAAG,IAAI,YAAY;;;;"}

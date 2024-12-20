@@ -1,0 +1,1 @@
+import{i as o}from"./i18n.Cv4-1ZiX.js";import{g as s}from"./123.BVaw0gZK.js";import"./index.DQfRr7yB.js";const a=(t,e)=>typeof t=="string"&&t.startsWith("/")?s(o.resolveRoute(t),e):t instanceof URL?s(o.resolveRoute(t.pathname),e):s(o.resolveRoute(t),e),g=t=>t.slug?`/events/${t.slug}`:`/events/id/${t.id}`,R="dsek://";export{R as A,g as e,a as g};

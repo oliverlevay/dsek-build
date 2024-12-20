@@ -1,0 +1,1 @@
+const n=(e,o)=>e*2+1,s=e=>Math.floor(e/2),t=e=>e%2===0,r=e=>t(e)?"VT":"HT",a=e=>e.getFullYear()*2+(e.getMonth()>=6?1:0),c=e=>r(e)+" "+s(e),m=e=>(e.slice(0,2)==="HT"?1:0)+(parseInt(e.slice(3,7))??2024)*2;export{a as d,m as p,n as s,c as t};

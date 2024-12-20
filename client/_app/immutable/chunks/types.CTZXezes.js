@@ -1,0 +1,1 @@
+const o="[NOLLNING]",s="/nollning",t=new Date("2024-08-28T16:00:00"),n=[{from:"/shop/tickets",to:`${s}/events`},{from:"/shop/cart"},{from:"/shop/inventory"},{from:"/shop/success"},{from:"/settings"}];export{o as N,n as O,s as P,t as R};
